@@ -1,0 +1,588 @@
+body{
+    font-family: 'Old Standard TT', serif;
+    background: #3e3b4a;
+    width: 80.5%;
+    margin-left: 9.53%;
+}
+
+*{
+	margin: 0;
+	padding: 0;	
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-container {
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 5.125em;
+height: 10.750em;
+align-items: baseline;
+}
+
+.logo {
+    display: block;
+    width: 11%;
+    height: auto;
+    text-align: center;
+    margin-right: 22%;
+}
+
+.logo h1{
+    font-family: sans-serif;
+	font-size: 3.750em;
+	font-weight: bold;
+	color: #fff;
+}
+
+.logo p{
+	font-size: 1em;
+	color: #797681;
+}
+
+.menu-button a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #797681;
+    font-weight: bold;
+    font-size: 0.938em;
+    letter-spacing: 3.3px;
+}
+
+#burger a {
+    display: inline-flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#burger {
+    width: 34%;
+    background: #3e3b4a;
+    padding: 7.5px 0 7.5px 2%;
+    right: -35px;
+}
+
+.burger_active {
+    top: 0;
+    left: 0;
+}
+
+.menu-list {
+position: fixed;
+left: 0;
+top: 0;
+z-index: 99;
+width: 30%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #fff;
+transition: 1s;
+transform: translateX(-100%);
+background-color: #3e3b4a;
+}
+
+.menu_active {
+    transform: translateX(0%);
+    top: 30%;
+}
+
+.menu-list ul{
+    padding: 5% 0;
+}
+
+.menu-list ul li{
+    list-style-type: none;
+    margin: 20% 5%;
+    transition: 0.5s;
+}
+
+.menu-list a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1.3em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.menu-list li:hover {
+    transform: translateX(15%);
+    text-shadow: 15px 10px 10px rgba(0,0,0,0.3);
+}
+
+.search{
+    display: flex;
+}
+
+.search-input{
+    background: transparent;
+    outline: none;
+    color: #797681;
+    border: 1px solid #3e3b4a;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.search-button {
+    background: transparent;
+    outline: none;
+    border: 1px solid #3e3b4a;
+    cursor: pointer;
+}
+
+.search-button img {
+    width: 27px;
+}
+
+.header-container {
+    transition: 0.5s;
+    position: relative;
+    z-index: 0;
+}
+
+.content_active {
+    transform: translateX(30%);
+}
+
+.top-slide {
+    background: url(img/1.png) no-repeat;
+    font-family: sans-serif;
+    background-size: 100% auto;
+    height: 40.063em;
+    transition: 0.5s;
+}
+
+.cont-home {
+    display: block;
+    position: relative;
+}
+
+.cont-home .link {
+    position: relative;
+    margin-left: 4%;
+    padding-top: 3.125em;
+}
+
+.link a {
+    color: #fac5b1;
+    letter-spacing: 3px;
+    font-size: 1.000em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cont-home h1 {
+    display: block;
+    width: 30%;
+    position: relative;
+    margin-top: 0.3em;
+    font-size: 5.000em;
+    color: #fff;
+    margin-left: 4%;
+    letter-spacing: 7px;
+    font-weight: bold;
+}
+
+.cont-home h2 {
+    display: block;
+    width: 32%;
+    font-size: 43px;
+    color: #fff;
+    margin-left: 4%;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-top: 14px;
+}
+
+.cont-home .read0 {
+    display: inline-block;
+    margin-top: 102px;
+    margin-left: 4%;
+    font-size: 22px;
+    font-weight: bold;
+    color:#fff;
+    letter-spacing: 2px;
+    background: transparent;
+    outline: none;
+    border: 4px solid #ffe18f;
+    border-radius: 0;
+    padding: 10px 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+  .read0:hover {
+    background-color: #ffe18f;
+    color: #E6EAEF;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 0.4em;
+ }
+
+ .cont-home2 .read:hover {
+    background-color: #ffe18f;
+    color: #E6EAEF;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 0.4em;
+ }
+
+.middle-slide {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+
+.cont-home2 {
+    display: block;
+    position: relative;
+    background: url(img/2.png) no-repeat;
+    background-size: 100% auto;
+    height: 37.813em;
+    font-family: sans-serif;
+    width: 61%;
+}
+
+.cont-home2 .link2 {
+    position: relative;
+    margin-left: 6.8%;
+    padding-top: 44px;
+}
+
+.link2 a {
+    color: #fac5b1;
+    letter-spacing: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cont-home2 h1 {
+    display: block;
+    width: 30%;
+    position: relative;
+    margin-top: 15px;
+    font-size: 58px;
+    color: #fff;
+    margin-left: 6%;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.cont-home2 h2 {
+    display: block;
+    width: 33%;
+    font-size: 26px;
+    color: #fff;
+    margin-left: 6%;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    margin-top: 14px;
+    line-height: 35px;
+}
+
+.cont-home2 .read {
+    margin-top: 239px;
+    margin-left: 6.5%;
+    font-size: 22px;
+    font-weight: bold;
+    color:#fff;
+    letter-spacing: 2px;
+    background: transparent;
+    outline: none;
+    border: 4px solid #ffe18f;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 0;
+    transition: 0.5s;
+}
+
+.email-form {
+    width: 37%;
+    background: #eb7b61;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.email-cont {
+    width: 76%;
+    margin-left: 13%;
+}
+
+.email-cont h1 {
+    margin-top: 85px;
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+
+.email-cont p {
+    color: #fff;
+    letter-spacing: 6px;
+    margin-top: 7px;
+}
+
+.email-cont h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: 7px;
+    letter-spacing: 1px;
+}
+
+.email-input {
+    width: 86%;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    background: transparent;
+    border: 4px solid #fff;
+    margin-top: 42px;
+}
+
+.email-input:focus {
+    border-color: #66689c;
+}
+
+.email-input::placeholder {
+    color: #fff;
+}
+
+.btn {
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    background: #66689c;
+    outline: none;
+    border: 3px solid #66689c;
+    color: #fff;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    box-shadow: 2px 5px 7px rgba(0,0,0,0.3);
+}
+
+.bottom-slide {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 25px;
+    height: 32.9em;
+    transition: 0.5s;
+}
+
+.bottom-slide .link3 {
+    position: relative;
+    padding-top: 42px;
+}
+
+.cameras {
+    display: block;
+    width: 25.5%;
+    margin-right: 2%;
+    background: url(img/3.png) no-repeat;
+    background-size: 100% auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.cameras .link3 a {
+    color: #fac5b1;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+.cameras h1 {
+    margin-top: 173px;
+    color: #fff;
+    font-size: 44px;
+    letter-spacing: 1px; 
+}
+
+.cameras .button {
+    padding: 12px 13.5px;
+    margin-top: 141px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: #ffe18f;
+    border: 1px solid #ffe18f;
+    color: #262626;
+    outline: none;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.sound {
+    display: block;
+    width: 25.5%;
+    margin-right: 2%;
+    background: url(img/4.png) no-repeat;
+    background-size: 100% auto;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.sound .link3 a {
+    color: #fac5b1;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 30px;
+}
+
+.sound h1 {
+    margin-top: 149px;
+    color: #fff;
+    font-size: 44px;
+    letter-spacing: 1px; 
+}
+
+.sound .button {
+    padding: 12px 13.5px;
+    margin-top: 116px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background: #ffe18f;
+    border: 1px solid #ffe18f;
+    color: #262626;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cameras2 {
+    display: block;
+    width: 45%;
+    background: url(img/5.png) no-repeat;
+    background-size: 100% auto;
+    font-family: sans-serif;
+}
+
+.cameras2 .link3 a {
+    color: #fac5b1;
+    letter-spacing: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 30px;
+    margin-left: 9%;
+}
+
+.cameras2 h1 {
+    margin-top: 13px;
+    color: #fff;
+    font-size: 44px;
+    letter-spacing: 1px; 
+    margin-left: 9%;
+}
+
+.text-bottom {
+    display: block;
+    width: 75%;
+    margin-left: 9%;
+
+}
+
+.cameras2  .text-bottom h2 {
+    margin-top: 13px;
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 1px; 
+    font-weight: lighter;
+}
+
+.bottom-slide .read {
+    margin-top: 227px;
+    margin-left: 9%;
+    font-size: 22px;
+    font-weight: bold;
+    color:#fff;
+    letter-spacing: 2px;
+    background: transparent;
+    outline: none;
+    border: 4px solid #ffe18f;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 0;
+}
+
+.bottom-slide .read:hover {
+    background-color: #ffe18f;
+    color: #E6EAEF;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 0.4em; 
+}
+
+.footer-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 174px;
+}
+
+.footer-cont p {
+  display: flex;
+  margin-top: 70px;
+  color: #ccc;
+  font-family: sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.footer-cont .social {
+    display: flex;
+    margin-top: 63px;
+    width: 8.5%;
+    text-align: right;
+}
+
+.footer-cont .social a{
+    width: 100%;
+    color: #ccc;
+}
+
+.footer-cont i {
+    font-size: 32px;
+}
+
+/* https://designmuseum.org/ */

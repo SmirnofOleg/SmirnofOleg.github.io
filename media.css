@@ -1,0 +1,335 @@
+@media screen and (min-width:320px) and (max-width:479px) {
+
+	.header-container {
+		margin-top: 2.125em;
+		height: 5.75em;
+	}
+
+	.header-container .logo {
+		display: none;
+	}
+
+	.menu_active {
+		top: 10%;
+	}
+
+	#burger {
+		width: 41%;
+		padding: 7.5px 0;
+	}
+
+	.menu-list a {
+		letter-spacing: 0;
+	}
+
+	.search {
+		width: 100%;
+		justify-content: flex-end;
+	}
+	
+	.top-slide {
+		background-size: cover;
+		height: 20.063em;
+	}
+	
+	.cont-home .link {
+		padding-top: 1.125em;
+	}
+	
+	.cont-home h1 {
+		font-size: 2em;
+	}
+	
+	.cont-home h2 {
+		font-size: 1.4em;
+		width: 100%;
+	}
+	
+	.cont-home .read0 {
+		margin-top: 50px;
+		font-size: 18px;
+	}
+
+	.cont-home2 {
+		width: 100%;
+		height: 18.813em;
+		background-size: 150%;
+	}
+	
+	.cont-home2 .link2 {
+		padding-top: 15px;
+	}
+	
+	.cont-home2 .link2 a {
+		letter-spacing: 4px;
+	}
+
+	.cont-home2 h1 {
+		margin-top: 0;
+	}
+	
+	.cont-home2 h2 {
+		font-size: 18px;
+		width: 78%;
+	}
+	
+	.cont-home2 .read {
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	
+	.email-form {
+		width: 100%;
+		height: 33em;
+	}
+	
+	.email-cont h1 {
+		margin-top: 20px;
+	}
+	
+	.email-input {
+		width: 73%;
+	}
+	
+	.btn {
+		width: 100%;
+	}
+	
+	.bottom-slide {
+		height: 191vh;
+	}
+	
+	.cameras {
+		width: 100%;
+		margin-top: 0;
+	}
+	
+	.cameras .button {
+		margin-top: 25px;
+	}
+
+	.sound {
+		width: 100%;
+	}
+
+	.sound h1 {
+		margin-top: 30px;
+	}
+
+	.cameras2 {
+		width: 100%;
+		background-size: 200%;
+	}
+
+	.bottom-slide .read {
+		margin-top: 90px;
+		font-size: 18px;
+	}	
+
+	.footer-cont .social {
+		width: 30.5%;
+	}
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+
+	.header-container {
+		margin-top: 2.125em;
+		height: 5.75em;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.menu_active {
+		top: 10%;
+	}
+	
+	.top-slide {
+		background-size: cover;
+		height: 30em;
+	}
+
+	.cont-home h1 {
+		font-size: 4em;
+	}
+
+	.cont-home h2 {
+		width: 90%;
+		font-size: 30px;
+	}
+
+	.cont-home .read0 {
+		margin-top: 50px;
+	}
+	
+	.cont-home2 {
+		width: 100%;
+		background-size: cover;
+		height: 25em;
+	}
+
+	.cont-home2 h2 {
+		width: 65%;
+	}
+	
+	.cont-home2 .read {
+		margin-top: 70px;
+	}
+	
+	.email-form {
+		width: 100%;
+		margin-left: 0;
+		margin-top: 25px;
+		height: 34em;
+	}
+	
+	.email-input {
+		width: 63%;
+		margin-top: 20px;
+	}
+	
+	.btn {
+		width: 80%;
+	}
+	
+	.bottom-slide {
+	display: flex;
+	height: 200vh;
+	}
+	
+	.cameras {
+		margin-top: 25px;
+		background-size: cover;
+		width: 100%;
+		margin-right: 0;
+	}
+	
+	.sound {
+	margin-top: 25px;
+	width: 100%;
+	background-size: cover;
+	margin-right: 0;
+	}
+	
+	.cameras2 {
+		margin-top: 25px;
+		width: 100%;
+		background-size: cover;
+		margin-right: 0;
+	}
+
+	.footer-cont .social {
+		width: 21.5%;
+	}
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+
+	.header-container {
+		height: 7.75em;
+	}
+
+	#burger {
+		background: transparent;
+	}
+	
+	.top-slide {
+		height: 26.063em;
+	}
+	
+	.logo {
+		width: 17%;
+	}
+	
+	.cont-home .link {
+		padding-top: 1.125em;
+	}
+	
+	.mobile-tab {
+		display: none;
+	}
+	
+	.cont-home h1 {
+		margin-top: 0.063em;
+		font-size: 3.5em;
+	}
+	
+	.cont-home h2 {
+		font-size: 25px;
+	}
+	
+	.cont-home .read0 {
+		margin-top: 70px;
+	}
+	
+	.cont-home2 {
+		background-size: inherit;
+		height: 29.813em;
+	}
+	
+	.cont-home2 h2 {
+		width: 65%;
+		font-size: 18px;
+	}
+	
+	.cont-home2 .read {
+		margin-top: 175px;
+	}
+	
+	.email-cont h1 {
+		margin-top: 10px;
+		font-size: 48px;
+	}
+	
+	.email-input {
+		width: 70%;
+	}
+	
+	.btn {
+		width: 90%;
+	}
+	
+	.cameras {
+		width: 100%;
+		background-size: cover;
+		height: 27em;
+		margin-right: 0;
+	}
+	
+	.cameras .button {
+		margin-top: 60px; 
+	}
+	
+	.sound {
+		width: 100%;
+		height: 27em;
+		background-size: cover;
+		margin-right: 0;
+	}
+	
+	.sound .button {
+		margin-top: 33px;
+	}
+	
+	.cameras2 {
+		width: 100%;
+		height: 27em;
+		background-size: cover;
+	} 
+	
+	.bottom-slide {
+		height: 85em;
+	}
+	
+	.bottom-slide .read {
+		margin-top: 143px;
+	}
+
+	.footer-cont .social {
+		width: 13.5%;
+	}
+
+
+}
